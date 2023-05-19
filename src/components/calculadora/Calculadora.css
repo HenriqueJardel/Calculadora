@@ -1,0 +1,8 @@
+.Calculadora {
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 48px);
+    border-radius: 5px;
+}

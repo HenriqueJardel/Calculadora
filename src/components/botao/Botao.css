@@ -1,0 +1,19 @@
+.Botao {
+    font-size: 1.4em;
+    border: none;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    background-color: #f0f0f0;
+}
+
+.Botao:active {
+    background-color: #ccc;
+}
+
+.Botao.duplo {
+    grid-column: span 2;
+}
+
+.Botao.triplo {
+    grid-column: span 3;
+}
